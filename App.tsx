@@ -1,45 +1,33 @@
-import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
-import WebView from 'react-native-webview';
+import MainContainer from './src/navigation/MainContainer';
+import * as Font from 'expo-font';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Pressable style={styles.button} onPress={() => alert('You pressed a button.')}>
-        <Text style={styles.buttonLabel}>Hello World</Text>
-      </Pressable>
-    </View>
-  );
+let customFonts = {
+  'monument-extended': require('./assets/fonts/monument-extended.ttf'),
+};
+
+export default class App extends React.Component {
+  state = {
+    fontsLoaded: false,
+  };
+
+  async _loadFontsAsync() {
+    await Font.loadAsync(customFonts);
+    this.setState({ fontsLoaded: true });
+  }
+
+  componentDidMount() {
+    this._loadFontsAsync();
+  }
+
+  render() {
+    if (!this.state.fontsLoaded) {
+      return null;
+    }
+
+    return (
+      <MainContainer></MainContainer>
+    );
+  }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#1A1A1A',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  buttonContainer: {
-    width: 320,
-    height: 68,
-    marginHorizontal: 20,
-    alignItems: 'center',
-    justifyContent: 'center',
-    padding: 3,
-  },
-  button: {
-    borderRadius: 10,
-    width: '100%',
-    height: '100%',
-    alignItems: 'center',
-    justifyContent: 'center',
-    flexDirection: 'row',
-  },
-  buttonIcon: {
-    paddingRight: 8,
-  },
-  buttonLabel: {
-    color: '#fff',
-    fontSize: 16,
-  },
-});
