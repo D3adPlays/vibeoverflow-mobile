@@ -7,11 +7,12 @@ import {
   SectionList,
   StatusBar,
   Image,
+  TouchableHighlight,
 } from "react-native";
-import { AppBar, Avatar } from "@react-native-material/core";
+import { AppBar } from "@react-native-material/core";
 import * as appStyle from "../AppStyle";
 import Constants from "expo-constants";
-import { ScrollView } from "react-native-gesture-handler";
+import Icon from "react-native-vector-icons/Ionicons";
 
 export let homeTitle: string = "Home";
 
@@ -58,12 +59,17 @@ export default function HomeScreen({}) {
         keyExtractor={(item, index) => item + index}
         renderItem={({ item }) => (
           <View style={styles.item}>
-            <Image
-              style={styles.tinyLogo}
-              source={{
-                uri: "https://reactnative.dev/img/tiny_logo.png",
-              }}
-            />
+            <TouchableHighlight onPress={() => {console.log(item)}}>
+              <View>
+                <Image
+                  style={styles.tinyLogo}
+                  source={{
+                    uri: "https://reactnative.dev/img/tiny_logo.png",
+                  }}
+                />
+              </View>
+            </TouchableHighlight>
+
             <View style={styles.item_title}>
               <Text style={styles.title}>MUSIC TITLE</Text>
               <Text style={styles.description}>{item}</Text>
@@ -81,7 +87,6 @@ export default function HomeScreen({}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingBottom: 8,
     backgroundColor: appStyle.BackgroundColor,
   },
   item: {
