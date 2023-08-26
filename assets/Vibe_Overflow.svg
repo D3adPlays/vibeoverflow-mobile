@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<svg width="1024" height="768" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+ <metadata id="metadata38955">image/svg+xml</metadata>
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="logo-group">
+   <image display="none" height="480" id="container" transform="translate(0 0)" width="480" x="272" y="144"/>
+   <g id="logo-center" transform="translate(259.5633798 0)">
+    <image display="none" id="icon_container" x="0" y="0"/>
+    <g font-family="Comfortaa" font-size="32px" font-style="normal" font-weight="300" id="slogan" text-anchor="middle" transform="translate(0 0)"/>
+    <g font-family="&#x27;Brandmark Sans 26&#x27;" font-size="72px" font-style="normal" font-weight="normal" id="title" text-anchor="middle" transform="translate(0 0)">
+     <path d="m345.42,0l11.23,-50.4l-9.79,0l-6.26,30.82l-6.27,-30.82l-9.79,0l11.31,50.4l9.57,0z" fill="#00ef60" id="path38958" stroke="#00ef60" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(50 45.967999999999996) scale(1.08) translate(-324.54181 50.4)"/>
+     <path d="m359.06,-50.4l0,50.4l9.79,0l0,-50.4l-9.79,0z" fill="#00e25c" id="path38960" stroke="#00e25c" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(87.27862999999996 45.967999999999996) scale(1.08) translate(-359.05906 50.4)"/>
+     <path d="m398.01,-25.27c2.67,-2.38 4.04,-5.98 4.04,-10.15c0,-12.82 -8.36,-14.98 -12.1,-14.98l-15.98,0l0,50.4l15.33,0c9.94,0 14.33,-6.77 14.33,-14.9c0,-4.04 -1.87,-8.36 -5.62,-10.37zm-14.25,15.98l0,-11.16l5.54,0c1.59,0 4.54,1.08 4.54,5.55c0,4.53 -2.95,5.61 -4.54,5.61l-5.54,0zm0,-20.45l0,-11.37l4.97,0c1.58,0 4.03,1.01 4.03,5.69c0,4.68 -2.45,5.68 -4.03,5.68l-4.97,0z" fill="#00d657" id="path38962" stroke="#00d657" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(103.37738 45.967999999999996) scale(1.08) translate(-373.96531 50.4)"/>
+     <path d="m417.09,-29.74l0,-11.37l14.76,0l0,-9.29l-24.56,0l0,50.4l24.56,0l0,-9.29l-14.76,0l0,-11.16l12.81,0l0,-9.29l-12.81,0z" fill="#00c953" id="path38964" stroke="#00c953" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(139.3717604 45.967999999999996) scale(1.08) translate(-407.29344 50.4)"/>
+     <path d="m442.86,-50.4l-11.09,0l0,50.4l11.09,0c-4.68,-1.94 -9.29,-6.26 -9.29,-14.76l0,-20.88c0,-8.5 4.61,-12.82 9.29,-14.76zm0.51,35.64c0,4.54 2.73,6.34 5.54,6.34c2.81,0 5.54,-1.8 5.54,-6.34l0,-20.88c0,-4.54 -2.73,-6.34 -5.54,-6.34c-2.81,0 -5.54,1.8 -5.54,6.34l0,20.88zm11.59,14.76l11.16,0l0,-50.4l-11.16,0c4.68,1.94 9.29,6.26 9.29,14.76l0,20.88c0,8.5 -4.61,12.82 -9.29,14.76z" fill="#00bd4f" id="path38966" stroke="#00bd4f" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(165.8101604 45.967999999999996) scale(1.08) translate(-431.77344 50.4)"/>
+     <path d="m465.31,-50.4l0,50.4l11.3,0l-11.3,-50.4zm9.79,0l6.26,30.82l6.27,-30.82l-12.53,0zm11.09,50.4l11.23,0l0,-50.4l-11.23,50.4z" fill="#00b04a" id="path38968" stroke="#00b04a" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(202.0268804 45.967999999999996) scale(1.08) translate(-465.30744 50.4)"/>
+     <path d="m497.23,-50.4l0,50.4l2.52,0l0,-50.4l-2.52,0zm12.39,41.11l14.68,0l0,9.29l1.37,0l0,-50.4l-1.37,0l0,9.29l-14.68,0l0,11.37l12.74,0l0,9.29l-12.74,0l0,11.16z" fill="#00a446" id="path38970" stroke="#00a446" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(236.5061504 45.967999999999996) scale(1.08) translate(-497.23269 50.4)"/>
+     <path d="m525.71,-50.4l0,50.4l2.66,0l0,-50.4l-2.66,0zm12.38,50.4l10.88,0l-7.06,-15.98l-3.82,0l0,15.98zm0,-25.34l4.04,0c1.94,0 5.9,-1.16 5.9,-7.85c0,-6.7 -3.96,-7.92 -5.9,-7.92l-4.04,0l0,15.77zm3.53,-25.06c9.15,0 15.77,5.98 15.77,17.21c0,6.98 -2.59,11.95 -6.77,14.69l8.14,18.5l0.65,0l0,-50.4l-17.79,0z" fill="#009741" id="path38972" stroke="#009741" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(267.2626604000001 45.967999999999996) scale(1.08) translate(-525.71094 50.4)"/>
+     <path d="m559.46,-50.4l0,50.4l2.52,0l0,-50.4l-2.52,0zm12.31,50.4l13.68,0l0,-50.4l-0.57,0l0,9.29l-13.11,0l0,11.37l11.59,0l0,9.29l-11.59,0l0,20.45z" fill="#008b3d" id="path38974" stroke="#008b3d" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(303.71266040000006 45.967999999999996) scale(1.08) translate(-559.46094 50.4)"/>
+     <path d="m585.48,-50.4l0,50.4l2.66,0l0,-50.4l-2.66,0zm12.38,41.11l15.48,0l0,-41.11l-15.48,0l0,41.11z" fill="#007e39" id="path38976" stroke="#007e39" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(331.80953 45.967999999999996) scale(1.08) translate(-585.47656 50.4)"/>
+     <path d="m623.99,-50.4l-11.09,0l0,50.4l11.09,0c-4.68,-1.94 -9.29,-6.26 -9.29,-14.76l0,-20.88c0,-8.5 4.61,-12.82 9.29,-14.76zm0.5,35.64c0,4.54 2.74,6.34 5.54,6.34c2.81,0 5.55,-1.8 5.55,-6.34l0,-20.88c0,-4.54 -2.74,-6.34 -5.55,-6.34c-2.8,0 -5.54,1.8 -5.54,6.34l0,20.88zm11.59,14.76l11.16,0l0,-50.4l-11.16,0c4.68,1.94 9.29,6.26 9.29,14.76l0,20.88c0,8.5 -4.61,12.82 -9.29,14.76z" fill="#007234" id="path38978" stroke="#007234" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(361.4251604000001 45.967999999999996) scale(1.08) translate(-612.89844 50.4)"/>
+     <path d="m646.43,-50.4l0,50.4l11.31,0l-11.31,-50.4zm9.79,0l6.27,30.82l5.54,-27.29l9.79,0l5.55,27.29l6.26,-30.82l-33.41,0zm11.09,50.4l11.23,0l-5.61,-25.13l-5.62,25.13zm20.81,0l11.3,0l0,-50.4l-11.3,50.4z" fill="#006530" id="path38980" stroke="#006530" stroke-miterlimit="2" stroke-width="0" transform="translate(0 310.816) translate(397.64188040000005 45.967999999999996) scale(1.08) translate(-646.43244 50.4)"/>
+    </g>
+    <image display="none" id="icon" x="0" xlink:href="https://app.brandmark.io/nounpreview/55734.png" y="0"/>
+   </g>
+  </g>
+ </g>
+</svg>
