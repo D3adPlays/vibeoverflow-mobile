@@ -1,11 +1,16 @@
 import React from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'react-native';
 import MainContainer from './src/navigation/MainContainer';
 import * as Font from 'expo-font';
+import { setStatusBarStyle, setStatusBarBackgroundColor } from 'expo-status-bar';
+import { MainColor } from './src/navigation/AppStyle';
 
 let customFonts = {
   'monument-extended': require('./assets/fonts/monument-extended.ttf'),
 };
+
+setStatusBarStyle('light');
+setStatusBarBackgroundColor(MainColor, false);
 
 export default class App extends React.Component {
   state = {

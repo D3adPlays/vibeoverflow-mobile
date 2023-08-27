@@ -5,15 +5,14 @@ import {
   View,
   SafeAreaView,
   SectionList,
-  StatusBar,
   Image,
   TouchableHighlight,
+  StatusBar,
 } from "react-native";
 import { AppBar } from "@react-native-material/core";
 import * as appStyle from "../AppStyle";
 import Constants from "expo-constants";
 import Icon from "react-native-vector-icons/Ionicons";
-
 export let homeTitle: string = "Home";
 
 const SAMPLE_DATA = [
