@@ -1,0 +1,284 @@
+{
+    "artists": {
+        "limit": 1,
+        "offset": 0,
+        "totalNumberOfItems": 100,
+        "items": [
+            {
+                "id": 3624939,
+                "name": "test",
+                "artistTypes": [
+                    "ARTIST",
+                    "CONTRIBUTOR"
+                ],
+                "url": "http://www.tidal.com/artist/3624939",
+                "picture": "0bd8db4e-42fd-4256-b57e-e29e368ca010",
+                "popularity": 12,
+                "artistRoles": [
+                    {
+                        "categoryId": -1,
+                        "category": "Artist"
+                    },
+                    {
+                        "categoryId": 2,
+                        "category": "Songwriter"
+                    },
+                    {
+                        "categoryId": 1,
+                        "category": "Producer"
+                    },
+                    {
+                        "categoryId": 3,
+                        "category": "Engineer"
+                    },
+                    {
+                        "categoryId": 10,
+                        "category": "Production team"
+                    }
+                ],
+                "mixes": {}
+            }
+        ]
+    },
+    "albums": {
+        "limit": 1,
+        "offset": 0,
+        "totalNumberOfItems": 300,
+        "items": [
+            {
+                "id": 89179624,
+                "title": "TESTING",
+                "duration": 3145,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "streamStartDate": "2018-05-25T00:00:00.000+0000",
+                "allowStreaming": true,
+                "premiumStreamingOnly": false,
+                "numberOfTracks": 15,
+                "numberOfVideos": 0,
+                "numberOfVolumes": 1,
+                "releaseDate": "2018-05-25",
+                "copyright": "(P) 2018 A$AP Rocky Recordings LLC/RCA Records. Marketed & Distributed by Polo Grounds Music/RCA Records.",
+                "type": "ALBUM",
+                "version": null,
+                "url": "http://www.tidal.com/album/89179624",
+                "cover": "5fbcd278-4a53-487a-beb7-72a3d2cac957",
+                "vibrantColor": "#d96d13",
+                "videoCover": "a058249e-2c7a-4632-a017-83a233d66080",
+                "explicit": true,
+                "upc": "886447076446",
+                "popularity": 80,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "HIRES_LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artists": [
+                    {
+                        "id": 4315444,
+                        "name": "A$AP Rocky",
+                        "type": "MAIN",
+                        "picture": "e6685546-3542-4384-be1e-6b495ec18050"
+                    }
+                ]
+            }
+        ]
+    },
+    "playlists": {
+        "limit": 1,
+        "offset": 0,
+        "totalNumberOfItems": 208,
+        "items": [
+            {
+                "uuid": "b6c8ce02-8ee3-49fc-8f8e-8018436ec55d",
+                "title": "Car Test with Elliott Wilson",
+                "numberOfTracks": 0,
+                "numberOfVideos": 45,
+                "creator": {},
+                "description": "Even though how we consume music has now changed, testing music in an automobile is still the tradition to judge its merit. Take a ride with Elliott Wilson and your favorite artist.",
+                "duration": 49870,
+                "lastUpdated": "2021-01-28T14:31:56.000+0000",
+                "created": "2017-06-16T18:14:20.000+0000",
+                "type": "PODCAST",
+                "publicPlaylist": true,
+                "url": "http://www.tidal.com/playlist/b6c8ce02-8ee3-49fc-8f8e-8018436ec55d",
+                "image": "e6a4b4d9-d700-420c-ab23-8a71e16e482c",
+                "popularity": 19,
+                "squareImage": "3b0da663-b0e0-41ce-b654-5a6b17d42e4a",
+                "promotedArtists": [
+                    {
+                        "id": 9763947,
+                        "name": "Car Test",
+                        "type": "MAIN",
+                        "picture": "bc119b25-6c29-42be-b57b-164111385f60"
+                    },
+                    {
+                        "id": 4899960,
+                        "name": "Jhené Aiko",
+                        "type": "MAIN",
+                        "picture": "327a5a30-7849-464f-8334-f82395cf5361"
+                    },
+                    {
+                        "id": 7686,
+                        "name": "The Alchemist",
+                        "type": "MAIN",
+                        "picture": "8fb3fc5f-2c2f-4a6b-bc41-8c918159f075"
+                    },
+                    {
+                        "id": 4839917,
+                        "name": "Boldy James",
+                        "type": "MAIN",
+                        "picture": "21e0d3a0-1eeb-47d6-b6e5-1a2194ece3bf"
+                    }
+                ],
+                "lastItemAddedAt": "2020-03-10T18:01:21.000+0000"
+            }
+        ]
+    },
+    "tracks": {
+        "limit": 1,
+        "offset": 0,
+        "totalNumberOfItems": 300,
+        "items": [
+            {
+                "id": 96312544,
+                "title": "TEST DRIVE",
+                "duration": 179,
+                "replayGain": -9.1,
+                "peak": 0.99707,
+                "allowStreaming": true,
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "streamStartDate": "2018-10-16T00:00:00.000+0000",
+                "premiumStreamingOnly": false,
+                "trackNumber": 3,
+                "volumeNumber": 1,
+                "version": null,
+                "popularity": 52,
+                "copyright": "℗ 2018 88rising Records/Warner Records Inc.",
+                "url": "http://www.tidal.com/track/96312544",
+                "isrc": "ZZOPM1800561",
+                "editable": false,
+                "explicit": true,
+                "audioQuality": "HI_RES",
+                "audioModes": [
+                    "STEREO"
+                ],
+                "mediaMetadata": {
+                    "tags": [
+                        "LOSSLESS",
+                        "MQA"
+                    ]
+                },
+                "artists": [
+                    {
+                        "id": 5888982,
+                        "name": "Joji",
+                        "type": "MAIN",
+                        "picture": "5d03f99e-706c-4bd4-9ca4-d71d9bec76b7"
+                    }
+                ],
+                "album": {
+                    "id": 96312541,
+                    "title": "BALLADS 1",
+                    "cover": "2a726738-5b18-4ca7-94db-bcb01244ee60",
+                    "vibrantColor": "#9f4c52",
+                    "videoCover": null,
+                    "releaseDate": "2018-10-26"
+                },
+                "mixes": {
+                    "TRACK_MIX": "001caa4a307408e207fd5f12a55316"
+                }
+            }
+        ]
+    },
+    "videos": {
+        "limit": 1,
+        "offset": 0,
+        "totalNumberOfItems": 300,
+        "items": [
+            {
+                "id": 100910706,
+                "title": "Testimony Visualizer",
+                "volumeNumber": 1,
+                "trackNumber": 1,
+                "releaseDate": "2018-12-14T00:00:00.000+0000",
+                "imagePath": null,
+                "imageId": "b9861567-8a48-4160-aba1-c2c6edac80c9",
+                "vibrantColor": "#a4ebbe",
+                "duration": 244,
+                "quality": "MP4_1080P",
+                "streamReady": true,
+                "adSupportedStreamReady": true,
+                "streamStartDate": "2018-12-14T00:00:00.000+0000",
+                "allowStreaming": true,
+                "explicit": true,
+                "popularity": 34,
+                "type": "Music Video",
+                "adsUrl": null,
+                "adsPrePaywallOnly": true,
+                "artists": [
+                    {
+                        "id": 6389843,
+                        "name": "Kodak Black",
+                        "type": "MAIN",
+                        "picture": "fb54658b-5313-46ab-a363-2cfbb7b480a0"
+                    }
+                ],
+                "album": null
+            }
+        ]
+    },
+    "topHit": {
+        "value": {
+            "id": 89179624,
+            "title": "TESTING",
+            "duration": 3145,
+            "streamReady": true,
+            "adSupportedStreamReady": true,
+            "streamStartDate": "2018-05-25T00:00:00.000+0000",
+            "allowStreaming": true,
+            "premiumStreamingOnly": false,
+            "numberOfTracks": 15,
+            "numberOfVideos": 0,
+            "numberOfVolumes": 1,
+            "releaseDate": "2018-05-25",
+            "copyright": "(P) 2018 A$AP Rocky Recordings LLC/RCA Records. Marketed & Distributed by Polo Grounds Music/RCA Records.",
+            "type": "ALBUM",
+            "version": null,
+            "url": "http://www.tidal.com/album/89179624",
+            "cover": "5fbcd278-4a53-487a-beb7-72a3d2cac957",
+            "vibrantColor": "#d96d13",
+            "videoCover": "a058249e-2c7a-4632-a017-83a233d66080",
+            "explicit": true,
+            "upc": "886447076446",
+            "popularity": 80,
+            "audioQuality": "HI_RES",
+            "audioModes": [
+                "STEREO"
+            ],
+            "mediaMetadata": {
+                "tags": [
+                    "LOSSLESS",
+                    "HIRES_LOSSLESS",
+                    "MQA"
+                ]
+            },
+            "artists": [
+                {
+                    "id": 4315444,
+                    "name": "A$AP Rocky",
+                    "type": "MAIN",
+                    "picture": "e6685546-3542-4384-be1e-6b495ec18050"
+                }
+            ]
+        },
+        "type": "ALBUMS"
+    }
+}
