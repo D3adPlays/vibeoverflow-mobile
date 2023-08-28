@@ -13,87 +13,26 @@ import * as TidalAPI from '../../musicProviders/tidal/types/TidalAPIType';
 
 type SearchBarComponentProps = {};
 
-const list = [
-	{
-		name: 'Amy Farha',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-		subtitle: 'Vice President',
-	},
-	{
-		name: 'Chris Jackson',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-		subtitle: 'Vice Chairman',
-	},
-	{
-		name: 'Amy Farha',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-		subtitle: 'Vice President',
-	},
-	{
-		name: 'Chris Jackson',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-		subtitle: 'Vice Chairman',
-	},
-	{
-		name: 'Amy Farha',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-		subtitle: 'Vice President',
-	},
-	{
-		name: 'Chris Jackson',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-		subtitle: 'Vice Chairman',
-	},
-	{
-		name: 'Amy Farha',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-		subtitle: 'Vice President',
-	},
-	{
-		name: 'Chris Jackson',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-		subtitle: 'Vice Chairman',
-	},
-	{
-		name: 'Amy Farha',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-		subtitle: 'Vice President',
-	},
-	{
-		name: 'Chris Jackson',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-		subtitle: 'Vice Chairman',
-	},
-	{
-		name: 'Amy Farha',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg',
-		subtitle: 'Vice President',
-	},
-	{
-		name: 'Chris Jackson',
-		avatar_url:
-			'https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg',
-		subtitle: 'Vice Chairman',
-	},
-];
+let list: {
+	name: string;
+	cover_url: string;
+	artists: string;
+	track_url: string;
+	time: string;
+}[] = [];
 
 const SearchScreen: React.FunctionComponent<SearchBarComponentProps> = () => {
 	const [search, setSearch] = useState('');
-
+	const [refreshing, setRefreshing] = React.useState(false);
 	const updateSearch = (search: React.SetStateAction<string>) => {
 		setSearch(search);
-		updateList(search.toString());
+		TidalAPI.search(search.toString()).then((responce) => {
+			list = responce;
+			setRefreshing(true);
+			setTimeout(() => {
+				setRefreshing(false);
+			}, 1);
+		});
 	};
 
 	return (
@@ -106,21 +45,22 @@ const SearchScreen: React.FunctionComponent<SearchBarComponentProps> = () => {
 				inputContainerStyle={styles.inputContainerStyle}
 				inputStyle={styles.inputStyle}
 			/>
-			<ScrollView style={{ paddingVertical: 10 }}>
-				<KeyboardAvoidingView>
+			<KeyboardAvoidingView style={{ paddingBottom: 100 }}>
+				<ScrollView>
 					{list.map((data, index) => (
 						<ListItem key={index} bottomDivider>
-							<Avatar source={{ uri: data.avatar_url }} />
+							<Avatar source={{ uri: data.cover_url }} />
 							<ListItem.Content>
 								<ListItem.Title>{data.name}</ListItem.Title>
 								<ListItem.Subtitle>
-									{data.subtitle}
+									{data.artists}
 								</ListItem.Subtitle>
 							</ListItem.Content>
+							<ListItem.Chevron color="black" />
 						</ListItem>
 					))}
-				</KeyboardAvoidingView>
-			</ScrollView>
+				</ScrollView>
+			</KeyboardAvoidingView>
 		</View>
 	);
 };
@@ -145,6 +85,5 @@ const styles = StyleSheet.create({
 export default SearchScreen;
 
 async function updateList(search: string) {
-	await TidalAPI.search(search);
 	return;
 }
